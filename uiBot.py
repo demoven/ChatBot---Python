@@ -34,7 +34,7 @@ def teste(a):
                     if((metodo2>20 and metodo2<70) or metodo1>5 or (metodo3>35 and metodo3<60)):
                         indice = item[0]
                         flagNaoSabe = True
-    
+  
     if(flagEncontrouCerteza):
         flagEncontrouCerteza = False
         res = respostas[indice]
