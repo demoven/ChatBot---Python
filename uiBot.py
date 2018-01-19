@@ -136,7 +136,7 @@ def menu():
           
     root.mainloop()
 
-db = pyodbc.connect('Driver={SQL Server Native Client 11.0};Server=DESKTOP-DQQKS2R;Database=ChatBotBaseDados;Trusted_Connection=yes;')
+db = pyodbc.connect('DATABASE') #put here your database!!!
 cursor = db.cursor()
 cursor.execute('SELECT * FROM Perguntas') 
 listaPerguntas = []
